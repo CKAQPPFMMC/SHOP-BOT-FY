@@ -40,8 +40,8 @@ from aiogram.types import (BufferedInputFile, CallbackQuery, CopyTextButton, Inl
 # ======================================================================
 #                              CONFIG
 # ======================================================================
-BOT_TOKEN = os.getenv("BOT_TOKEN", "PASTE_YOUR_BOT_TOKEN_HERE")
-OWNER_IDS = [int(x) for x in os.getenv("OWNER_IDS", "123456789").split(",") if x.strip()]
+BOT_TOKEN = os.getenv("BOT_TOKEN", "8748626598:AAEEHFOBy0O_M_SlJ-k4kGoTe8i0koDzypw")
+OWNER_IDS = [int(x) for x in os.getenv("OWNER_IDS", "8587243537").split(",") if x.strip()]
 SHOP_NAME = "Unlimited Shopping Bot"
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
